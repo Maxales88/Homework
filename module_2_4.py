@@ -11,14 +11,13 @@ for number in numbers:
     is_prime = True
 
     # Проверяем, является ли число простым
-    # Простое число должно быть больше 1
     if number > 1:
-        for i in range(2, int(number**0.5) + 1):  # Проверяем делители от 2 до sqrt(number)
+        for i in range(2, int(number**0.5) + 1):  # Проверяем делители 
             if number % i == 0:  # Если число делится на i без остатка
-                is_prime = False  # Число не простое
+                is_prime = False  # Число непростое
                 break  # Нет смысла продолжать проверку делителей
     else:
-        is_prime = False  # Число 1 не простое
+        is_prime = False  # Число 1 непростое
 
     # Записываем число в соответствующий список
     if is_prime:

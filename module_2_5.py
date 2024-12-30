@@ -38,7 +38,7 @@ result4 = get_matrix(0, 8, 32)
 print(result4)
 print('------->')
 
-result = get_matrix(7, 7, 7)
+result5 = get_matrix(7, 7, 7)
 print("Матрица 7x7, заполненная 7:")
-for k in result:
+for k in result5:
     print(k)
